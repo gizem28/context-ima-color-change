@@ -10,7 +10,7 @@ const StudentList = () => {
 
   return (
     <div>
-      <h2>User List</h2>
+      <h1 style={{textAlign:"center", color:"pink"}}>User List</h1>
       {students.map((student)=>
           (<StudentItem key={student.id} student={student} />
           ))}
