@@ -25,4 +25,4 @@ const {id, name, age, color, email}=student;
     )
 }
 
-export default StudentItem
+export default StudentItem;
